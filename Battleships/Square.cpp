@@ -1,6 +1,8 @@
 #include "Square.h"
 
-
+Square::Square()
+{
+}
 
 Square::Square(int posX, int posY, bool occupied):
 m_posX(posX),

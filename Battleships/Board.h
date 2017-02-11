@@ -1,4 +1,6 @@
 #pragma once
+#include "Square.h"
+
 class Board
 {
 public:
@@ -7,6 +9,7 @@ public:
 
 
 private:
-	int m_board[10][10];
+	Square m_board[10][10];
+	Square m_space;
 };
 

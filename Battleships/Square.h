@@ -2,6 +2,7 @@
 class Square
 {
 public:
+	Square();
 	Square(int posX, int posY, bool occupied);
 	~Square();
 	void hit();

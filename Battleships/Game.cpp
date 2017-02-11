@@ -4,7 +4,9 @@
 
 Game::Game() :
 m_player(m_name, m_highScore, 0, 1),
-m_enemy(1, 0)
+m_enemy(1, 0),
+m_playerBoard(),
+m_enemyBoard()
 {
 	m_turn = 1;
 	m_screenHeight = 800;
