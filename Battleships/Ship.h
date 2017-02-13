@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <SFML\Graphics.hpp>
 enum class
 	ShipType
 {
@@ -32,6 +33,7 @@ private:
 	int m_posX;
 	int m_posY;
 	Direction m_facing;
-
+	sf::Sprite m_sprite;
+	sf::Texture m_texture;
 };
 
